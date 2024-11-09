@@ -178,6 +178,7 @@ export const Card = ({
     } else {
       document.body.style.overflow = "auto";
     }
+    console.log(currentIndex)
 
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
